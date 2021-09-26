@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="heading">
+    <img src="./img/logo.png" alt="">
+  <div class="logoo">
+    <ul class="nav justify-content-end">
+      <li class=" nav-item">
+        <a class="menu-edit nav-link active" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-edit nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-edit nav-link" href="#">Foods</a>
+      </li>
+        <a class="menu-edit nav-link" href="#">Contact</a>
+      </li>
+  </div>
+  </div>
+  <nav class="navbar submitsearch navbar-light bg-light">
+    <div class="subsearch container-fluid ">
+      <form class="d-flex ">
+        <input class="search-edit form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn butsearch btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+</div>
+<div class="center">
+  <p><h1>Expoler Foods</h1></p>
+</div>
+  <ul class="photo list-group list-group-horizontal">
+    <li class="photo list-group-item"><img src="./img/pizza.jpg" alt=""></li>
+    <li class="photo list-group-item"><img src="./img/burger.jpg" alt=""></li>
+    <li class="photo list-group-item"><img src="./img/momo.jpg" alt=""></li>
+  </ul>
+<div class="foodmenu center"><h1>Food Menu</h1>
+  <div class="container">
+    <div class="row">
+      <div class="box-box col-6 col-sm-6">
+        <div class="box-image">
+          <img src="./img/menu-pizza.jpg" alt="" class="box-photo box-vien">         
+        </div>
+        <div class="box-title">
+          <h6>Smoky Burger</h6>
+          <h6>$5.00</h6>
+          <h6>Made with Italian Sauce, Chicken, and organice vegetables.</h6>
+          <button type="button" class="btn btn-outline-danger">Order Now</button>
+        </div>
+      </div>
+      <div class="box-box col-6 col-sm-6">
+        <div class="box-image">
+          <img src="./img/menu-pizza.jpg" alt="" class="box-photo box-vien">         
+        </div>
+        <div class="box-title">
+          <h6>Smoky Burger</h6>
+          <h6>$5.00</h6>
+          <h6>Made with Italian Sauce, Chicken, and organice vegetables.</h6>
+          <button type="button" class="btn btn-outline-danger">Order Now</button>
+        </div>
+      </div> 
+      <div class="w-100 d-none d-md-block"></div>
+      <div class="box-box col-6 col-sm-6">
+        <div class="box-image">
+          <img src="./img/menu-pizza.jpg" alt="" class="box-photo box-vien">          
+        </div>
+        <div class="box-title">
+          <h6>Smoky Burger</h6>
+          <h6>$5.00</h6>
+          <h6>Made with Italian Sauce, Chicken, and organice vegetables.</h6>
+          <button type="button" class="btn btn-outline-danger">Order Now</button>
+        </div>
+      </div>
+      <div class="box-box col-6 col-sm-6">
+        <div class="box-image">
+          <img src="./img/menu-pizza.jpg" alt="" class="box-photo box-vien">          
+        </div>
+        <div class="box-title">
+          <h6>Smoky Burger</h6>
+          <h6>$5.00</h6>
+          <h6>Made with Italian Sauce, Chicken, and organice vegetables.</h6>
+          <button type="button" class="btn btn-outline-danger">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="more">
+    <h6>See all Foods</h6>
+  </div>
+</div>
+<div class="social">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        <a href="http://fb.com"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+      </div>
+      <div class="col-md-auto">
+        <a href="http://instagram.com"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+      </div>
+      <div class="col-md-auto">
+        <a href="https://twitter.com/"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+      </div>
+    </div>
+  </div>
+  <h6>All rights reserved. Designed by Minh</a></h6>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
